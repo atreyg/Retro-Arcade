@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+    
+    <meta charset="utf-8">
+    
+    <title>Tetris</title>
+    
+    <script src="tetris.js"> </script>
+    <link rel="stylesheet" type="text/css" href="tetris.css">    
+    
+    </head>
+
+<body>
+	<div id="wrapper">
+    
+    	<div id="header"><h1>Tetris</h1></div>
+    	
+        <div id = "overlay" style="text-align:center;font-size:40px">
+        <br />
+        Press any key to start
+        <canvas id="canvas" tabindex="1" style="z-index:0" class="hidden">
+     
+        </canvas>
+        
+        <img src="Images/tetris.png"/>
+        
+        </div>
+        
+           
+        <div id="gameData">
+            <div id="score" class="gameData" align="left"></div><div id="lines" class="gameData" align="center"></div><div id="level" class="gameData" align="right"></div>
+        </div>
+     </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+    
+    <meta charset="utf-8">
+    
+    <title>Pac-Man</title>
+    
+    <script src="pacman.js"> </script>
+    <link rel="stylesheet" type="text/css" href="pacman.css">    
+    
+    </head>
+
+<body>
+	<div id="wrapper">
+    
+    	<div id="header"><h1>PAC - MAN</h1> <img id="sound" src="Images/sound.png" /> </div>
+        <div id = "overlay" style="text-align:center">
+        <span id="flasher" class="visible"> Press any key to start </span>
+        <canvas id="canvas" tabindex="1" class="hidden" height="50px">
+     
+        </canvas>
+        
+        <img src="Images/man.png"/>
+        
+        </div>
+           
+        <div id="gameData">
+            <div id="score" class="gameData" align="left"></div><div id="lives" class="gameData" align="center"></div><div id="level" class="gameData" align="right"></div>
+        </div>
+        <div id="extra">
+        
+        </div>
+     </div>
+</body>
+
+</html>
